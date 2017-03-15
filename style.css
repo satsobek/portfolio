@@ -37,3 +37,8 @@ a:hover {
   text-align: center;
   background-color: lightblue;
 }
+
+img {
+    border-radius: 50%;
+    image-orientation: center;
+}

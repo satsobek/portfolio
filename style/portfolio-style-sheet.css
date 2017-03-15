@@ -1,13 +1,12 @@
+
 a:hover {
   color: purple;
-  background-color: skyblue;
+  background-color: #ffffcc;
 }
 
 a {
   color: white;
-  padding-left: 30px;
 }
-
 
 body {
   background-image: url("../images/sunset.jpg");
@@ -21,6 +20,7 @@ h2 {
   color: #ff0066;
   text-align: left;
   font-size: 24px;
+  text-decoration: underline;
 }
 
 .announcement-section {
@@ -47,10 +47,38 @@ h2 {
   margin: auto;
 }
 
-div {
+.oaw-subjects {
   width: 80%;
   border: 15px solid white;
   padding: 15px;
   margin: auto;
   background-color: #ffff99;
 }
+
+.subject-content::first-letter {
+    color: purple;
+    font-size: x-large;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.nav ul {
+  list-style: none;
+  background-color: #444;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: -4px;
+    padding-right: 25px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+    height: 40px;
+
+  }
