@@ -1,0 +1,39 @@
+.global-navigation:hover {
+  color: green;
+  background-color: skyblue;
+}
+
+a:visited {
+  color:orange
+}
+
+body {
+  background-image: url("../images/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: #ff0066;
+  text-align: left;
+  font-size: 24px;
+}
+
+.announcement-section {
+  color: red;
+  text-align: center;
+  background-color: yellow;
+}
+
+a:hover {
+  color: green;
+  background-color: skyblue;
+}
+
+.report-concerns-section {
+  color: blue;
+  text-align: center;
+  background-color: lightblue;
+}
