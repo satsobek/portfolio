@@ -1,0 +1,56 @@
+a:hover {
+  color: purple;
+  background-color: skyblue;
+}
+
+a {
+  color: white;
+  padding-left: 30px;
+}
+
+
+body {
+  background-image: url("../images/sunset.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h2 {
+  color: #ff0066;
+  text-align: left;
+  font-size: 24px;
+}
+
+.announcement-section {
+  color: red;
+  text-align: center;
+  background-color: yellow;
+}
+
+.announcement-section {
+  width: 80%;
+  border: 15px solid white;
+  padding: 15px;
+  margin: auto;
+  background-color: #ccffcc;
+}
+
+.report-concerns-section {
+  color: blue;
+  text-align: center;
+  background-color: lightblue;
+  width: 80%;
+  border: 15px solid white;
+  padding: 15px;
+  margin: auto;
+}
+
+div {
+  width: 80%;
+  border: 15px solid white;
+  padding: 15px;
+  margin: auto;
+  background-color: #ffff99;
+}
