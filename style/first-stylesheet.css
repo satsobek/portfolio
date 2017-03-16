@@ -16,11 +16,21 @@ body {
   background-attachment: fixed;
 }
 
+.portfolio-intro {
+  color: limegreen
+}
+
 h2 {
   color: #ff0066;
   text-align: left;
   font-size: 24px;
   text-decoration: underline;
+}
+
+h3 {
+  color: white;
+  font-size: 18px;
+  text-align: left
 }
 
 .announcement-section {
@@ -62,6 +72,7 @@ h2 {
 
 img {
     border-radius: 50%;
+    image-orientation: left;
 }
 
 .nav ul {
@@ -80,5 +91,4 @@ img {
     font-size: 30px;
     line-height: 40px;
     height: 40px;
-
   }
