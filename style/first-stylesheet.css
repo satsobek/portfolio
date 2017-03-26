@@ -1,3 +1,4 @@
+@import url('http://fonts.google.com/specimen/Anton');
 
 a:hover {
   color: purple;
@@ -7,6 +8,8 @@ a:hover {
 a {
   color: white;
 }
+
+p {font-family: 'Anton';}
 
 body {
   background-image: url("../images/sunset.jpg");
